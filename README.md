@@ -6,6 +6,7 @@
 
 ### MFPlayer v2.0
 * https://enthusapp.github.io/mfplayer/
+* [PDF 버젼](https://enthusapp.github.io/seoulstadium/ENTHUS%20MFPlayer%20v2.1.5.pdf)
 
 ### StadiumPlayer v1.0
 * https://enthusapp.github.io/seoulstadium/
