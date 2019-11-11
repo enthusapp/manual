@@ -8,3 +8,4 @@ https://enthusapp.github.io/mfplayer/
 
 ### StadiumPlayer v1.0
 https://enthusapp.github.io/seoulstadium/
+[PDF 버젼](https://enthusapp.github.io/seoulstadium/seoulExternalLight_v1.0.pdf)
