@@ -23,4 +23,4 @@ RS-485, 9600 bps
 ### PLAN 선택 프로토콜 테스트 방법
 LCD 창 초기 화면에서 MENU 버튼을 눌러 PLAN 번호를 확인할 수 있습니다. PLAN 선택 프로토콜 입력후에 START PLAN 번호가 변경된 것을 확인 할 수 있습니다.
 
-![running plan 사진](https://github.com/enthusapp/old_project/blob/master/DMX512M_2560/img/plan_change.png)
+![running plan 사진](./plan_change.png)
