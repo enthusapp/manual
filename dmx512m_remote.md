@@ -18,9 +18,9 @@ RS-485, **9,600 bps**, no parity, 8 bits, no flow control
 | :------------: | :-----------------------: | :-----------------------: | :-----------------------: |
 | STX(1)         | 0x02                      | 0x02                      | 0x02                      |
 | HEADER(4)      | 0xFA FF FF F9             | 0xFA FF FF F9             | 0xFA FF FF F9             |
-| PLAN Number(1) | 0 ~ plan_max              | 0x00                      | 0x01                      |
+| PLAN Number(1) | 0 ~ plan_max              | **0x00**                  | **0x01**                  |
 | FOOTER1(8)     | 0x00 00 00 00 00 00 00 01 | 0x00 00 00 00 00 00 00 01 | 0x00 00 00 00 00 00 00 01 |
-| SUM(1)         | sum                       | 0xF4                      | 0xF5                      |
+| SUM(1)         | sum                       | **0xF4**                  | **0xF5**                  |
 | FOOTER2(1)     | 0xF7                      | 0xF7                      | 0xF7                      |
 | ETX(1)         | 0x03                      | 0x03                      | 0x03                      |
 
