@@ -6,21 +6,29 @@ RS-485, 9600 bps, no parity, 8 bits, no flow control
 
 ### PLAN 선택 프로토콜
 
-| 명칭(Byte 개수) | **Code**                  | **예) PLAN 1 을 선택**     |
-| :------------: | :-----------------------: | :-----------------------: |
-| STX(1)         | 0x02                      | 0x02                      |
-| HEADER(4)      | 0xFA FF FF F9             | 0xFA FF FF F9             |
-| PLAN Number(1) | 0 ~ plan_max              | 0x00                      |
-| FOOTER1(8)     | 0x00 00 00 00 00 00 00 01 | 0x00 00 00 00 00 00 00 01 |
-| SUM(1)         | sum                       | 0xF4                      |
-| FOOTER2(1)     | 0xF7                      | 0xF7                      |
-| ETX(1)         | 0x03                      | 0x03                      |
+| 명칭(Byte 개수) | **Code**                  | **예) PLAN 1 을 선택**     | **예) PLAN 2 을 선택**     |
+| :------------: | :-----------------------: | :-----------------------: | :-----------------------: |
+| STX(1)         | 0x02                      | 0x02                      | 0x02                      |
+| HEADER(4)      | 0xFA FF FF F9             | 0xFA FF FF F9             | 0xFA FF FF F9             |
+| PLAN Number(1) | 0 ~ plan_max              | 0x00                      | 0x01                      |
+| FOOTER1(8)     | 0x00 00 00 00 00 00 00 01 | 0x00 00 00 00 00 00 00 01 | 0x00 00 00 00 00 00 00 01 |
+| SUM(1)         | sum                       | 0xF4                      | 0xF5                      |
+| FOOTER2(1)     | 0xF7                      | 0xF7                      | 0xF7                      |
+| ETX(1)         | 0x03                      | 0x03                      | 0x03                      |
 
 * plan_max: 100
 * sum = STX + HEADER + ... + FOOTER1: STX 에서 FOOTER1 까지 바이트 단위 데이터의 합
 * 예) PLAN 1 을 선택 할때의 sum: **0xF4** = 0x02 + 0xFA + 0xFF + 0xFF + 0xF9 + 0x00 ... + 0x01
+* 예) PLAN 2 을 선택 할때의 sum: **0xF5** = 0x02 + 0xFA + 0xFF + 0xFF + 0xF9 + 0x01 ... + 0x01
+* 예) PLAN 3 을 선택 할때의 sum: **0xF6** = 0x02 + 0xFA + 0xFF + 0xFF + 0xF9 + 0x02 ... + 0x01
+* 예) PLAN 4 을 선택 할때의 sum: **0xF7** = 0x02 + 0xFA + 0xFF + 0xFF + 0xF9 + 0x03 ... + 0x01
+* 예) PLAN 5 을 선택 할때의 sum: **0xF8** = 0x02 + 0xFA + 0xFF + 0xFF + 0xF9 + 0x04 ... + 0x01
+* 예) PLAN 6 을 선택 할때의 sum: **0xF9** = 0x02 + 0xFA + 0xFF + 0xFF + 0xF9 + 0x05 ... + 0x01
 
 ### PLAN 선택 프로토콜 테스트 방법
 LCD 창 초기 화면에서 MENU 버튼을 눌러 PLAN 번호를 확인할 수 있습니다. PLAN 선택 프로토콜 입력후에 START PLAN 번호가 변경된 것을 확인 할 수 있습니다.
 
 ![running plan 사진](./plan_change.png)
+
+### Example Application
+https://github.com/enthusapp/NodeSerial
