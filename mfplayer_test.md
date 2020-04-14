@@ -65,10 +65,22 @@ GPS 신호를 수신할 수 있는 위치, 건물 외벽 창이 있는 곳에 GP
 * [ ] TeamViewer 정상 접속
 
 ### 팀뷰어 접속 테스트 방법
-MFPlayer 에 인터넷 접속이 가능한 랜선을 연결한다.
+MFPlayer 에 인터넷 접속이 가능한 랜선을 연결합니다.
 
-화면 하단의 TeamViewer Icon 을 선택한다.
+1. 랜선 연결 지점
+1. 인터넷 정상 연결후 상태표시
 
-TeamViewer ID 를 확인하고 PC 의 TeamViewer 프로그램을 이용하여 정상접속되는지 확인한다.
+<img src="img/mfplayer1/tv_connect.png" width="600" />
 
-패스워드는 개발팀을 통해 개별 확인한다.
+화면 하단의 TeamViewer Icon 을 선택해 MFPlayer 의 TeamViewer ID 를 확인합니다.
+
+1. TeamViewer Icon
+1. ID 확인
+
+<img src="img/mfplayer1/tv_icon.png" width="600" />
+
+PC 의 TeamViewer 프로그램을 이용하여 정상접속되는지 확인합니다.
+
+<img src="1.jpg" width="600" />
+
+TeamViewer 패스워드는 개발팀을 통해 개별 확인합니다.
