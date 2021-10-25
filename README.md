@@ -1,4 +1,4 @@
-# manual
+# 엔토스 매뉴얼 모음
 
 ## MFPlayer v1.0
 * https://docs.google.com/presentation/d/1ksA7P-AP_7BMeXOh7mF0bHCKIzjiaUzgdmpQC_ThNMo/edit?usp=sharing
