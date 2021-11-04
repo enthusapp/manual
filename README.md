@@ -13,3 +13,6 @@
 * https://enthusapp.github.io/seoulstadium/
 * http://bitly.kr/mfseoul
 * [PDF 버젼](https://enthusapp.github.io/seoulstadium/seoulExternalLight_v1.0.pdf)
+
+## MMBA 유지보수 문서
+https://docs.google.com/presentation/d/1h0TE_qcGcRg5gtoceSjcG9LHhTY2wvEZ/edit?usp=sharing&ouid=103675938282523151092&rtpof=true&sd=true
