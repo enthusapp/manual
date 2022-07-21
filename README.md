@@ -14,6 +14,10 @@
 * http://bitly.kr/mfseoul
 * [PDF 버젼](https://enthusapp.github.io/seoulstadium/seoulExternalLight_v1.0.pdf)
 
+## MFPlayer10
+* https://docs.google.com/presentation/d/1lLeUqv0enbueaRq5kLjCY_HEMg_u11uQYUTQxcuh1Bs/edit?usp=sharing
+* PDF: https://drive.google.com/file/d/1MZW7EheN7buA1Bw0ozya-rSJnFyKbzf4/view?usp=sharing
+
 ## MMBA
 ### Manual
 * https://docs.google.com/presentation/d/1S8vNW-KUW9Zz1E0sG6yDQ4lm26TTbQk3ws6sJMx12YA/edit?usp=sharing
