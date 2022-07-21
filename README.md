@@ -14,5 +14,9 @@
 * http://bitly.kr/mfseoul
 * [PDF 버젼](https://enthusapp.github.io/seoulstadium/seoulExternalLight_v1.0.pdf)
 
-## MMBA 유지보수 문서
+## MMBA
+### Manual
+* https://docs.google.com/presentation/d/1S8vNW-KUW9Zz1E0sG6yDQ4lm26TTbQk3ws6sJMx12YA/edit?usp=sharing
+* PDF: https://drive.google.com/file/d/1FkvZiS0BGPYF4TjxTCXgGPgT1rpU2Vhb/view?usp=sharing
+### 유지보수 문서
 https://docs.google.com/presentation/d/1h0TE_qcGcRg5gtoceSjcG9LHhTY2wvEZ/edit?usp=sharing&ouid=103675938282523151092&rtpof=true&sd=true
